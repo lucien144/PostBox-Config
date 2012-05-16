@@ -28,8 +28,3 @@
 	background-color: Highlight !important;
 }
 
-#threadTree treechildren::-moz-tree-row(todo) {
-	-moz-appearance: none !important;
-	background-color: #FF0000 !important;
-}
-
