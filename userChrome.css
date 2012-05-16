@@ -1,0 +1,46 @@
+/*
+ * Do not remove the @namespace line -- it's required for correct functioning
+ */
+@namespace url("http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul");
+
+/* BEGIN ALTERNATING ROW COLORS */
+
+#threadTree treechildren::-moz-tree-row(odd) {
+	-moz-appearance: none !important;
+	background-image: none !important;
+	background-color:#EFEFEF !important;
+}
+#threadTree treechildren::-moz-tree-row(selected) {
+	background-color: -moz-Dialog !important;
+}
+#threadTree treechildren::-moz-tree-row(selected, focus) {
+	background-color: Highlight !important;
+}
+
+#threadTree treechildren::-moz-tree-row(odd) {
+	-moz-appearance: none !important;
+	background-image: none !important;
+	background-color:#EFEFEF !important;
+}
+#threadTree treechildren::-moz-tree-row(selected) {
+	background-color: -moz-Dialog !important;
+}
+#threadTree treechildren::-moz-tree-row(selected, focus) {
+	background-color: Highlight !important;
+}
+
+/* BEGIN UNREAD MESSAGE HIGHLIGHTING */
+
+#threadTree treechildren::-moz-tree-cell(unread) {
+	-moz-appearance: none !important;
+	background-color: #B9D5E3 !important;
+}
+
+#threadTree treechildren::-moz-tree-cell(unread,selected) {
+	background-color: Highlight !important;
+}
+
+#threadTree treechildren::-moz-tree-cell(todo) {
+	-moz-appearance: none !important;
+	background-color: #FF0000 !important;
+}
