@@ -8,6 +8,12 @@
 #threadTree treechildren::-moz-tree-cell(unread) {
 	-moz-appearance: none !important;
 	background-color: #EBE0FF !important;
+	margin: -1px !important;
+	padding: 3px !important;
+}
+
+#threadTree treechildren::-moz-tree-cell(unread,selected) {
+	background-color: Highlight !important;
 }
 
 #threadTree treechildren::-moz-tree-cell-text(unread) {
@@ -16,10 +22,6 @@
 
 #threadTree treechildren::-moz-tree-cell-text(unread,selected) {
     color: #FFFFFF !important;
-}
-
-#threadTree treechildren::-moz-tree-cell(unread,selected) {
-	background-color: Highlight !important;
 }
 
 /* 	This matches one of my label colors (label is applied to messages via filters in PostBox) 
