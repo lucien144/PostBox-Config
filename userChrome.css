@@ -43,3 +43,10 @@
 #threadTree treechildren::-moz-tree-row(lc-330099,selected) {
 	background-color: Highlight !important;
 }
+
+/*	
+ *	ToDo messages
+ */
+#threadTree treechildren::-moz-tree-row(flagged) {
+	background-color: #FFE7EA !important;
+}
