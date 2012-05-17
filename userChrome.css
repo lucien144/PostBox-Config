@@ -9,7 +9,6 @@
 	-moz-appearance: none !important;
 	background-color: #EBE0FF !important;
 	margin: -1px !important;
-	padding: 3px !important;
 }
 
 #threadTree treechildren::-moz-tree-cell(unread,selected) {
